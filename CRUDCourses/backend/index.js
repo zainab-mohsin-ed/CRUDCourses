@@ -60,7 +60,7 @@ app.post('/api/create', (req,res)=> {
 // Route for updating a course
 app.put('/api/update', (req,res)=> {
 
-  console.log(req.body)
+  console.log("Update", req.body)
 
   const CourseID = req.body.id;
   const CourseName = req.body.CourseName;
